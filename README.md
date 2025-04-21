@@ -1,5 +1,6 @@
 # JKFLIPFLOP-USING-IF-ELSE
-
+## Name: Ragavan E
+## Reg no: 212223040160
 **AIM:** 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
@@ -34,15 +35,32 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+/* write all the steps invloved 
+
+*/
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+Developed by:Ragavan E
+RegisterNumber:212223040160
+module exp7(j,k,q,qb,clock);
+input j,k,clock;
+output reg q;
+output qb;
+always @ (posedge(clock))
+begin
+	q<=(j &(~q)) | ((~k) & q);
+end
+assign qb = ~q;
+endmodule
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
+![exp7 rtl](https://github.com/user-attachments/assets/749110ee-18e8-4b46-ba49-4589329d3bd6)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![wave form](https://github.com/user-attachments/assets/6e48d5c6-4834-4b35-a549-5474de2ac949)
 
 **RESULTS**
