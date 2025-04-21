@@ -1,6 +1,6 @@
-# EXP7 JKFLIPFLOP
 ## Name: Ragavan E
 ## Reg no: 212223040160
+# EXP4 IMPLEMENTATION OF JK FLIPFLOP
 **AIM:** 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
@@ -35,15 +35,25 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-1.Type the program in Quartus software.
+1.Open Quartus Prime and create a new project.
 
-2.Compile and run the program.
+2.Create a Verilog HDL file and enter the JK Flip-Flop code.
 
-3.Generate the RTL schematic and save the logic diagram.
+3.Save the file and add it to the project.
 
-4.Create nodes for inputs and outputs to generate the timing diagram.
+4.Click Compile to check for errors and build the design.
 
-5.For different input combinations generate the timing diagram.
+5.Go to Tools > Netlist Viewers > RTL Viewer to view and save the RTL schematic.
+
+6.Create a Vector Waveform File (.vwf) via File > New > University Program VWF.
+
+7.Add input/output nodes using Edit > Insert > Insert Node or Bus.
+
+8.Apply different input combinations (J, K, Clock) in the waveform.
+
+9.Run Simulation from Processing > Start Simulation.
+
+10.View and save the timing diagram showing the JK flip-flop behavior.
 
 
 **PROGRAM**
