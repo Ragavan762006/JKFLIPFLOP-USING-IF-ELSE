@@ -1,4 +1,4 @@
-# JKFLIPFLOP-USING-IF-ELSE
+# EXP7 JKFLIPFLOP
 ## Name: Ragavan E
 ## Reg no: 212223040160
 **AIM:** 
